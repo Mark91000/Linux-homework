@@ -1,0 +1,24 @@
+   0 cd
+   1 mkdir /home/user
+   2 mkdir /home/user/start
+   3 touch /home/user/start/1.txt
+   4 cd /home/user/start/
+   5 vi
+   6 cat 1.txt 
+   7 date >> 1.txt
+   8 cat 1.txt 
+   9 cd
+  10 mkdir /opt/task
+  11 touch /opt/task/start.txt
+  12 cp -r /home/user/start/1.txt /opt/task/start.txt 
+  13 ls -la | tail -4 >> /opt/task/start.txt 
+  14 cat /opt/task/start.txt 
+  15 touch /home/chmodFile
+  16 date >> /home/chmodFile 
+  17 cat /home/chmodFile 
+  18 ls -la
+  19 cd /home/
+  20 ls -la
+  21 chmod 740 chmodFile 
+  22 ls -la
+  23 history >/tmp/history.txt
